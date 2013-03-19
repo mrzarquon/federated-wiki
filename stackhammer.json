@@ -2,20 +2,17 @@
   "metaVersion": "1.1.6",
   "accessKey": "Puppet Labs",
   "puppetVersion": "PUPPET27",
+  "master": {
+    "type": "T1_MICRO",
+    "deployState": "RUNNING",
+    "image": "ami-8e27adbe",
+    "name": "testmaster654"
+  },
   "environments": [
     {
       "siteLocation": "manifests",
       "moduleLocations": [
         "modules"
-      ],
-      "nodes": [
-        {
-          "type": "T1_MICRO",
-          "deployState": "RUNNING",
-          "image": "ami-6227ad52",
-          "role": "federated_wiki_server",
-          "name": "testserver321"
-        }
       ],
       "name": "production"
     }
