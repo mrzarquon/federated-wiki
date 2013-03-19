@@ -1,5 +1,6 @@
 {
-  "metaVersion": "1.1.5",
+  "metaVersion": "1.1.6",
+  "accessKey": "Puppet Labs",
   "puppetVersion": "PUPPET27",
   "environments": [
     {
@@ -7,7 +8,17 @@
       "moduleLocations": [
         "modules"
       ],
+      "nodes": [
+        {
+          "type": "T1_MICRO",
+          "deployState": "RUNNING",
+          "image": "ami-6227ad52",
+          "role": "federated_wiki_server",
+          "name": "testserver321"
+        }
+      ],
       "name": "production"
     }
-  ]
+  ],
+  "puppetLintEnabled": false
 }
