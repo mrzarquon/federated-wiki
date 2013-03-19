@@ -14,6 +14,15 @@
       "moduleLocations": [
         "modules"
       ],
+      "nodes": [
+        {
+          "type": "T1_MICRO",
+          "deployState": "RUNNING",
+          "image": "ami-6227ad52",
+          "role": "federated_wiki_server",
+          "name": "testagent"
+        }
+      ],
       "name": "production"
     }
   ],
